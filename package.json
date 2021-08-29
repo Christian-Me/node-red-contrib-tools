@@ -1,0 +1,23 @@
+{
+  "name": "time-table",
+  "version": "1.0.0",
+  "main": "../node-red-contrib-ui-uplot-charts/lib/js/timeTable.cjs.js",
+  "module": "../node-red-contrib-ui-uplot-charts/lib/js/timeTable.esm.js",
+  "browser": "../node-red-contrib-ui-uplot-charts/lib/js/timeTable.umd.js",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.29.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "doc": "documentation build ./src/** -f html -o docs",
+    "docmd": "documentation build ./src/** -f md >timetable.md",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ]
+}
