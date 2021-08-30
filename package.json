@@ -1,6 +1,25 @@
 {
-  "name": "time-table",
-  "version": "1.0.0",
+  "name": "node-red-contrib-tools",
+  "version": "0.0.1",
+  "author": "Christian Meinert (https://github.com/Chistian-Me)",
+  "contributors": [],
+  "license": "Apache-2.0",
+  "keywords": [
+    "node-red",
+    "javascipt",
+    "modules",
+    "tools",
+    "table",
+    "config ui"
+  ],
+  "bugs": {
+    "url": "https://github.com/Christian-Me/node-red-contrib-tools/issues"
+  },
+  "homepage": "https://github.com/Christian-Me/node-red-contrib-tools#README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christian-Me/node-red-contrib-tools.git"
+  },
   "main": "../node-red-contrib-ui-uplot-charts/lib/js/timeTable.cjs.js",
   "module": "../node-red-contrib-ui-uplot-charts/lib/js/timeTable.esm.js",
   "browser": "../node-red-contrib-ui-uplot-charts/lib/js/timeTable.umd.js",
